@@ -1,0 +1,63 @@
+package mathoperations;
+
+public class MathOperations {
+     public static void main( String[] args ) {
+         int p,q,r,s,t,u,f,g,e,w,d,h,i,k,l;
+          double a,b,c,j;
+          String first, second, together;
+ 
+          p = 8;
+          q = 25;
+         System.out.println( "p is " + p + ", q is " + q );
+ 
+         r = p + q;
+         System.out.println( "p+q is " + r );
+         s = p - q; 
+        
+         System.out.println( "p-q is " + s );
+         t = p+q*3;
+         System.out.println( "p+q*3 is " + t );
+         u = q / 2;
+         System.out.println( "q/2 is " + u );
+         f = p/5;
+         System.out.println(" p/5 is " + s);        
+         g = f += 2;
+         System.out.println(" f+=2 is " + f);
+         a = 1.1;
+         System.out.println( "a is " + a) ; 
+         b = a*a;
+         System.out.println( "a*a is " + b );
+         c = b -=2;
+         System.out.println( "c-= is " + f );
+         System.out.println( "b/2 is " + c );
+         w = 4+s;
+         System.out.println( " 4+s is " + r );
+         d = s-4;
+         System.out.println( " s-4 is " + u);
+         j = d*3;
+         System.out.println ( " d*3 is " + 5);
+         h = 2*s;
+         System.out.println ( " 2*s is " + q);
+         i = 4+h;
+         System.out.println ( " 4+h is " + h);
+         k = 5/p;
+         System.out.println ( " 5/p is " + c);
+         l = p-9;
+         System.out.println ( " p-9 is " + d);
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         System.out.println();
+
+         first = "peanut butter";
+         second = " and jelly";
+         together = first + second;
+         System.out.println( together );
+     }
+}
