@@ -1,0 +1,8 @@
+public class AboutMe {
+
+   public static void main(String[] args) {
+      System.out.println("My name is Siddhi, 19 years old, from CA.");
+      System.out.println("I love to sleep, play with dogs, and I watch a ton of netflix!");
+      System.out.println("My favorite color is black.");
+   }
+}
