@@ -1,0 +1,45 @@
+double height;
+   String firstName;
+   String lastName;
+   /*   String lastname;
+   boolean Astudent; */   
+    
+  
+
+    public Person() {
+        this.age =  19;
+        this.height = 72;
+        boolean Astudent; 
+       boolean isAstudent;
+       isAstudent = true;
+       
+     this.firstName = "Siddhi";
+     this.lastName = "Kabadi"; 
+     
+     
+    }    
+     
+      public static void main(String[] args ) {
+          Person p = new Person ();
+          
+          
+          System.out.println("I am" + " " + p.age + " " +"years old and" + " " +p.height + " " + "inches tall");
+          System.out.println("My name is " + " " +  p.firstName + " " + (p.lastName)+" ");
+            
+    }
+
+//    class String {
+//   
+//        public String() {
+//            java.lang.String firstName = null;
+//            java.lang.String lastName = null;
+//         System.out.println("My name is"+ firstName +"" + lastName);
+//            java.lang.String age = null;
+//            java.lang.String haircolor = null;
+//            java.lang.String height = null;
+//         System.out.println("years old and"+"I am"+age +height +"inches tall");
+//         
+//        }
+    }
+    
+
