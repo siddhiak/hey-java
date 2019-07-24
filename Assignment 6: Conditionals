@@ -1,0 +1,101 @@
+package quiz;
+
+import java.util.Scanner;
+
+public class Quiz {
+
+    public static void main(String[] args) {
+        Scanner keyboard = new Scanner(System.in);
+        int rightAnswers = 0;
+        
+        System.out.println("Here comes a quiz. No cheating!");
+        
+        System.out.println("Question 1: What is the capital of California?");
+        System.out.println("\tA) San Francisco");
+        System.out.println("\tB) Sacramento");
+        System.out.println("\tC) Los Angeles");
+        System.out.println("\tD) San Jose");
+        String answer1 = keyboard.nextLine();
+        if (answer1.equals("B"))   {
+            System.out.println("That is correct");
+            rightAnswers++;
+            
+        }
+        else   {
+            System.out.println("The correct answer is Sacramento");
+        }
+        
+        System.out.println("Question 2: What is four + six");
+        
+        System.out.println("\tA) 7");
+        System.out.println("\tB) 10");
+        System.out.println("\tC) 8");
+        System.out.println("\tD) 9");
+        String answer2 = keyboard.nextLine();
+        if (answer2.equals("B")) {
+            System.out.println("That is correct!");
+            rightAnswers++;
+        }
+        else   {
+            System.out.println("The correct answer is 10");
+        
+        System.out.println("Question 3: What is the meaning of H20");
+        System.out.println("\tA) Hydrogen");
+        System.out.println("\tB) Chlorine");
+        System.out.println("\tC) Water");
+        String answer3 = keyboard.nextLine();
+        if (answer3.equals("C"))   {
+            System.out.println("Correct");
+            rightAnswers++;
+        }
+        else  {
+            System.out.println("The correct meaning of H20 is water");
+                
+        }
+        System.out.println("Question 4: What is the correct meaning of a function");
+        System.out.println("\tA) If one x value has one y value");
+        System.out.println("\tB) If each x value has 4 y values");
+        String answer4 = keyboard.nextLine();
+        if (answer4.equals("A"))  {
+            System.out.println("Well done, that is correct");
+            rightAnswers++;
+        }
+        else {
+            System.out.println("The correct meaning of a function is that one x value has only one y value");
+        
+        System.out.println("Question 5: True or false. Boolean is true or false");
+        String answer5 = keyboard.nextLine();
+        if (answer5.equals("True"))    {
+           System.out.println("Correct");
+           rightAnswers++;
+        }
+        else {
+            System.out.println("The correct answer is true");
+           
+        System.out.println("Question 6: Is California a country or state");
+        System.out.println("\tA) State");
+        System.out.println("\tB) Country");
+        String answer6 = keyboard.nextLine();
+        if (answer6. equals ("A"))   {
+            System.out.println("Correct, good job");
+            rightAnswers++;
+                    
+                    }
+                    else {
+                        System.out.println("Sorry, California is actually a state!");
+                           
+                            }
+            
+          
+           
+       
+            
+        
+        
+    }
+        System.out.println("Your score is " + rightAnswers + " out of 6 question.");
+        }
+        };
+        
+    
+    
