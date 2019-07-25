@@ -14,8 +14,8 @@ public class QuizMaker {
         if (input.equals("Math"))  {
            System.out.println("This the math quiz. Don't cheat!");
            int rightAnswers = 0;
-           
-           System.out.println("Question 1: What is the pythagorean theorem?");
+    
+        System.out.println("Question 1: What is the pythagorean theorem?");
         System.out.println("\tA) a + b = c");
         System.out.println("\tB) 62");
         System.out.println("\tC) a^2 + b^2 = c^2");
@@ -90,7 +90,13 @@ public class QuizMaker {
             System.out.println("Okay, thank you for taking this test. If you would like to take another test, please restart. ");
         }
         
-            
+        }
+     
+    else if (input.equals("Biology"))  {
+    System.out.println("This is the biology quiz. Don't cheat!");
+    int rightAnswers1=0;
+    
+    
         
         
         
@@ -102,5 +108,6 @@ public class QuizMaker {
 
         
         
-    }
+    
+
     
