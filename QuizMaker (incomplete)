@@ -77,6 +77,19 @@ public class QuizMaker {
             System.out.println("Sorry that is incorrect. You have now completed this test!");
         }
         System.out.println("Your  score is" + " " +rightAnswers + " out of 5 questions ");
+        System.out.println("Would you like to see the answer key for this test?");
+        String value= keyboard.nextLine();
+        if (value.equals("Yes"))  {
+            System.out.println("\tC");
+            System.out.println("\tB");
+            System.out.println("\tC");
+            System.out.println("\tTrue");
+            System.out.println("\tFalse");
+        }
+        else  {
+            System.out.println("Okay, thank you for taking this test. If you would like to take another test, please restart. ");
+        }
+        
             
         
         
