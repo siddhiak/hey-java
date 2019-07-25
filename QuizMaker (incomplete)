@@ -1,0 +1,93 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package quizmaker;
+import java.util.Scanner;
+public class QuizMaker {
+    public static void main(String[] args) {
+        Scanner keyboard = new Scanner(System.in);
+        System.out.println("Welcome to Quiz Maker. Which quiz would you like to take?");
+        System.out.println("The choices are: Math, Biology, Chemistry, Physics and Java : ");
+        String input= keyboard.nextLine();
+        if (input.equals("Math"))  {
+           System.out.println("This the math quiz. Don't cheat!");
+           int rightAnswers = 0;
+           
+           System.out.println("Question 1: What is the pythagorean theorem?");
+        System.out.println("\tA) a + b = c");
+        System.out.println("\tB) 62");
+        System.out.println("\tC) a^2 + b^2 = c^2");
+        String answer1 = keyboard.nextLine();
+        if (answer1.equals("C"))  {
+            System.out.println("That is correct");
+            rightAnswers++;
+        }
+        else {
+            System.out.println("Sorry that is incorrect. Onto the next question!");
+        }  
+        System.out.println("Question 2: What is the slope formula?");
+        System.out.println("\tA) y = mx+b");
+        System.out.println("\tB) y2-y1/x2-x1");
+        System.out.println("\tC) y = 2x+c");
+        String answer2 = keyboard.nextLine();
+        if (answer2.equals("B"))  {
+            System.out.println("That is correct");
+            rightAnswers++;
+        }
+        else {
+            System.out.println("Sorry that is incorrect. Onto the next question!");
+            
+        } 
+        System.out.println("Question 3: Express 71/1000 as a decimal");
+        System.out.println("\tA) .71");
+        System.out.println("\tB) .0071");
+        System.out.println("\tC) .071");
+        String answer3 = keyboard.nextLine();
+        if (answer3.equals("C"))  {
+            System.out.println("That is correct");
+            rightAnswers++;
+        }
+        else {
+            System.out.println("Sorry that is incorrect. Onto the next question!");
+            
+        }
+        System.out.println("Question 4: True or false. Complementary angles measure up to 90 degrees");
+        System.out.println("\tA) True");
+        System.out.println("\tB) False");
+        String answer4 = keyboard.nextLine();
+        if (answer4.equals("A"))  {
+            System.out.println("That is correct");
+            rightAnswers++;
+        }
+        else {
+            System.out.println("Sorry that is incorrect. Onto the next question!");
+            
+        }
+        System.out.println("Question 5: True or false. Vertical angles never have equal measure.");
+        System.out.println("\tA) True");
+        System.out.println("\tB) False");
+       String answer5 = keyboard.nextLine();
+        if (answer5.equals("B"))  {
+            System.out.println("That is correct. Congratulations on finishing this test");
+            rightAnswers++;
+        }
+        else {
+            System.out.println("Sorry that is incorrect. You have now completed this test!");
+        }
+        System.out.println("Your  score is" + " " +rightAnswers + " out of 5 questions ");
+            
+        
+        
+        
+        
+        
+    }
+    
+}
+
+        
+        
+    }
+    
