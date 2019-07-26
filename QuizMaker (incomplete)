@@ -1,11 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package quizmaker;
+package quizmakerp;
 import java.util.Scanner;
-public class QuizMaker {
+public class QuizMakerP {
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         System.out.println("Welcome to Quiz Maker. Which quiz would you like to take?");
@@ -96,6 +91,90 @@ public class QuizMaker {
     System.out.println("This is the biology quiz. Don't cheat!");
     int rightAnswers1=0;
     
+            System.out.println("Question 1: What is the difference between meiosis and mitosis?");
+            System.out.println("\tA) Meiosis is used for reproduction and mitosis is used for cell division.");
+            System.out.println("\tB) Meiosis is used for cell division and mitosis is used for reproduction");
+            System.out.println("\tC) Mitosis helps chromosomes.");
+                    String answer6 = keyboard.nextLine();
+                    if (answer6.equals("A"))  {
+                        System.out.println("That is correct");
+                        rightAnswers1++;
+                    }
+                    else {
+                        System.out.println("Sorry that is incorrect. Onto the next question!");
+                    }  
+                        
+                    
+        System.out.println("Question 2: What type of cell does mitosis produce?");
+        System.out.println("\tA) haploid");
+        System.out.println("\tB) chromosome");
+        System.out.println("\tC) diploid");
+        String answer7 = keyboard.nextLine();
+        if (answer7.equals("C"))  {
+            System.out.println("That is correct");
+            rightAnswers1++;
+        }
+            else {
+            System.out.println("Sorry that is incorrect. Onto the next question!");
+        }   
+         System.out.println("Question 3: When does cytokinesis begin? ");
+        System.out.println("\tA) Anaphase");
+        System.out.println("\tB) Prophase");
+        System.out.println("\tC) Metaphase");
+        String answer8 = keyboard.nextLine();
+        if (answer8.equals("A"))   {
+            System.out.println("That is correct");
+            rightAnswers1++;
+        }
+        else {
+            System.out.println("Sorry that is incorrect. Onto the next question!");
+            System.out.println("Question 4: What are the stages of the cell cycle?");
+        System.out.println("\tA) G1, G2, G3");
+        System.out.println("\tB) G1, M, G2");
+        System.out.println("\tC) G1, S, G2");
+        String answer9= keyboard.nextLine();
+        if (answer9.equals("C")) {
+            System.out.println("That is correct");
+            rightAnswers1++;
+        }
+        else {
+            System.out.println("Sorry that is incorrect. Onto the next question!");
+        }  
+        System.out.println(" Question 5: What type of cells contain only one set of chromosomes?");
+        System.out.println("\tA) White blood cells");
+        System.out.println("\tB) Haploid cells");
+        System.out.println("\tC) skin cells");
+        String answer10 = keyboard.nextLine();
+        if (answer10.equals("B")) {
+            System.out.println("That is correct. Congratulations you have finished this test!");
+            rightAnswers1++;
+        }
+        else {
+            System.out.println("Sorry that is incorrect. You have completed this test.");
+        } 
+        System.out.println("Your score is " + " "+ rightAnswers1+ "out of 5 questions.");
+        System.out.println("Would you like to see the answer key for this test?");
+        String val = keyboard.nextLine();
+        if (val.equals("Yes"))  {
+            System.out.println("\tA");
+            System.out.println("\tC");
+            System.out.println("\tA");
+            System.out.println("\tC");
+            System.out.println("\tB");
+        }
+            else {
+            System.out.println("Okay, thank you for taking this test. If you would like to take another test, please restart");
+            
+            
+                    
+        
+        }
+            
+        }
+        }
+    
+    }
+    
     
         
         
@@ -104,10 +183,4 @@ public class QuizMaker {
         
     }
     
-}
 
-        
-        
-    
-
-    
